@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//WebRoot/WEB-INF/web.xml=UTF-8
+encoding//WebRoot/pages/js/man/cm/comMan.js=UTF-8
+encoding//WebRoot/pages/js/man/cm/test.js=UTF-8
+encoding//WebRoot/pages/jsp/user/cart.jsp=UTF-8
+encoding//WebRoot/pages/jsp/user/orderDetail.jsp=UTF-8
+encoding//WebRoot/pages/jsp/user/spurToIndex.jsp=UTF-8
+encoding//WebRoot/pages/jsp/user/test.jsp=UTF-8
+encoding//src/com/carhartt/man/configxml/struts/struts-man-cm.xml=UTF-8
+encoding/<project>=UTF-8

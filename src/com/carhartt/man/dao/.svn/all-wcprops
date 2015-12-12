@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/carHartt/!svn/ver/465/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao
+END
+OrderdetialsDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/carHartt/!svn/ver/349/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao/OrderdetialsDAO.java
+END
+AdvertisementDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/carHartt/!svn/ver/572/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao/AdvertisementDAO.java
+END
+AdinadpDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/carHartt/!svn/ver/636/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao/AdinadpDAO.java
+END
+MessageDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/carHartt/!svn/ver/513/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao/MessageDAO.java
+END
+AnnouncementDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/carHartt/!svn/ver/513/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao/AnnouncementDAO.java
+END
+ShoppingcartDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/carHartt/!svn/ver/548/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao/ShoppingcartDAO.java
+END
+UserDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/carHartt/!svn/ver/513/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao/UserDAO.java
+END
+NotificationDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/carHartt/!svn/ver/497/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao/NotificationDAO.java
+END
+AdpositionDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/carHartt/!svn/ver/603/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao/AdpositionDAO.java
+END
+ManagerDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/carHartt/!svn/ver/308/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao/ManagerDAO.java
+END
+OrderDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/carHartt/!svn/ver/643/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao/OrderDAO.java
+END
+ItemDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/carHartt/!svn/ver/588/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao/ItemDAO.java
+END
+BroadclassDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/carHartt/!svn/ver/399/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao/BroadclassDAO.java
+END
+FavoritesDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/carHartt/!svn/ver/553/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao/FavoritesDAO.java
+END
+SubclassDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/carHartt/!svn/ver/304/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao/SubclassDAO.java
+END
+UserinfoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/carHartt/!svn/ver/229/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao/UserinfoDAO.java
+END
+EvaluateDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/carHartt/!svn/ver/424/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao/EvaluateDAO.java
+END
+VerificationDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/carHartt/!svn/ver/413/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao/VerificationDAO.java
+END
+VSaleDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/carHartt/!svn/ver/465/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao/VSaleDAO.java
+END
+ConsigneeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/carHartt/!svn/ver/349/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/dao/ConsigneeDAO.java
+END

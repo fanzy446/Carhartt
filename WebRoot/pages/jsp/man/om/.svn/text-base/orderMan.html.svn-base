@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<title>Carhartt商城管理系统</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+		<link rel="stylesheet" href="../../../resources/css/ext-all.css" />
+		<link rel="stylesheet" href="../../../css/example.css" />
+		<link rel="stylesheet" href="../../../css/myStyle.css" />
+		
+		
+		<script type="text/javascript" src="../../../resources/extjs/ext-base.js"></script>
+		<script type="text/javascript" src="../../../resources/extjs/ext-all.js"></script>
+		<script type="text/javascript" src="../../../resources/extjs/examples.js"></script>
+		<script type="text/javascript" src="../../../js/man/om/main.js"></script>
+		<script type="text/javascript" src="../../../js/man/om/addOrderWin.js"></script>
+		<script type="text/javascript" src="../../../js/man/om/test.js"></script>
+		<script type="text/javascript" src="../../../js/man/om/orderMan.js"></script>
+	</head>
+	<body>
+	</body>
+</html>

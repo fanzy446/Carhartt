@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/carHartt/!svn/ver/200/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/configxml/spring/cm
+END
+applicationContext-service-cm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/carHartt/!svn/ver/200/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/configxml/spring/cm/applicationContext-service-cm.xml
+END
+applicationContext-action-cm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/carHartt/!svn/ver/172/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/configxml/spring/cm/applicationContext-action-cm.xml
+END
+applicationContext-dao-cm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/carHartt/!svn/ver/165/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/configxml/spring/cm/applicationContext-dao-cm.xml
+END

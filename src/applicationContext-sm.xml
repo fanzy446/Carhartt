@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+	<bean id="SynManAction" class="com.carhartt.man.action.SynManAction">
+		<property name="sMManService" ref="sMManService" />
+	</bean>
+	<bean id="sMManService" class="com.carhartt.man.service.impl.SMManServiceImpl">
+		<property name="announcementDao">
+			<ref bean="AnnouncementDAO"/>
+		</property>
+		<property name="advertisementDao">
+			<ref bean="AdvertisementDAO"/>
+		</property>
+		<property name="msgDao">
+			<ref bean="MessageDAO"/>
+		</property>
+		<property name="userDao">
+			<ref bean="UserDAO"/>
+		</property>
+		<property name="managerDao">
+			<ref bean="ManagerDAO"/>
+		</property>
+		<property name="notificationDao">
+			<ref bean="NotificationDAO"/>
+		</property>
+		<property name="itemDao">
+			<ref bean="ItemDAO"/>
+		</property>
+		<property name="adiDao">
+			<ref bean="AdinadpDAO"/>
+		</property>
+		<property name="adpDao">
+			<ref bean="AdpositionDAO"/>
+		</property>
+    </bean>
+</beans>

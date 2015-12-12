@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+/*----------------footer----------------*/
+.footer_top {
+	height: 100px;
+	background-color: #FEE6B8;
+}
+
+.footer_top img{
+	width: 1000px;
+}
+
+.footer {
+	width: 1000px;
+	height: 60px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.footer h1 {
+	color: #E1E1E1;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.about_us {
+	height: 30px;
+	width: 420px;
+	margin: 0 auto;
+}
+
+.about_us li {
+	float: left;
+	list-style: none;
+	width: 60px;
+}
+
+.about_us li a {
+	font-family: Microsoft YaHei;
+	font-size: 12px;
+	color: #CCC;
+	text-decoration: none;
+}
+
+.about_us li a:hover {
+	text-decoration: underline;
+}

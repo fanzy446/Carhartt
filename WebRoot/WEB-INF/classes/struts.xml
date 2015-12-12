@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<!-- 配置了系列常量 -->
+	<!-- ... -->
+	<constant name="struts.i18n.encoding" value="utf-8"/>
+	<!-- 导入其他配置文件 -->
+	<include file="com/carhartt/man/configxml/struts/struts-sample.xml" />
+	<include file="com/carhartt/man/configxml/struts/struts-man-ba.xml" />
+	<include file="com/carhartt/man/configxml/struts/struts-man-cm.xml" />
+	<include file="com/carhartt/man/configxml/struts/struts-man-om.xml" />
+	<include file="com/carhartt/man/configxml/struts/struts-man-sm.xml" />
+	<include file="com/carhartt/man/configxml/struts/struts-man-su.xml" />
+	<include file="com/carhartt/man/configxml/struts/struts-man-um.xml" />
+	<include file="com/carhartt/user/configxml/struts/struts-user.xml" />
+	<!--
+		调试用 <package name="dafault" extends="struts-default"> <action
+		name="*"> <result>/{1}.jsp</result> </action> </package>
+	-->
+	
+</struts>

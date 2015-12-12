@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="comMan" namespace="/comMan" extends="struts-default,json-default">
+		<action name="*" class="com.carhartt.man.action.ComManAction"
+			method="{1}">
+			<param name="savePath">pages/source/image/item</param>
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>
+	</package>
+
+	<!--
+		<package name="fileload" namespace="/fileload"
+		extends="struts-default,json-default"> <action name="fileload"
+		class="com.carhartt.man.action.ComManAction" method="fileload"> <param
+		name="savePath">resource/images/commodity</param> <result type="json">
+		<param name="root"> jsonMap </param> </result> </action> </package>
+	-->
+
+</struts>

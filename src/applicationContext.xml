@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://www.springframework.org/schema/tx 
+	http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+	http://www.springframework.org/schema/aop 
+	http://www.springframework.org/schema/aop/spring-aop-2.5.xsd">
+
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+		destroy-method="close">
+		<property name="driverClass" value="com.mysql.jdbc.Driver" />
+		<property name="jdbcUrl"
+			value="jdbc:mysql://222.201.132.35:3306/carhartt?useUnicode=true&amp;characterEncoding=utf-8" />
+		<property name="user" value="root" />
+		<property name="password" value="carhartt" />
+		<property name="maxPoolSize" value="400" />
+		<property name="minPoolSize" value="1" />
+		<property name="initialPoolSize" value="1" />
+		<property name="maxIdleTime" value="20" />
+	</bean>
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<!-- 鎵撳嵃鏁版嵁搴撴煡璇㈣鍙�-->
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">
+					org.hibernate.dialect.MySQLDialect
+				</prop>
+				<prop key="hibernate.show_sql">
+					true
+				</prop>
+			</props>
+		</property>
+		<property name="mappingResources">
+			<list>
+				<value>com/carhartt/man/model/User.hbm.xml</value>
+				<value>com/carhartt/man/model/Favorites.hbm.xml</value>
+				<value>com/carhartt/man/model/Message.hbm.xml</value>
+				<value>com/carhartt/man/model/Broadclass.hbm.xml</value>
+				<value>com/carhartt/man/model/Orderdetials.hbm.xml</value>
+				<value>com/carhartt/man/model/Consignee.hbm.xml</value>
+				<value>com/carhartt/man/model/Order.hbm.xml</value>
+				<value>com/carhartt/man/model/Userinfo.hbm.xml</value>
+				<value>com/carhartt/man/model/Evaluate.hbm.xml</value>
+				<value>com/carhartt/man/model/Item.hbm.xml</value>
+				<value>com/carhartt/man/model/Subclass.hbm.xml</value>
+				<value>com/carhartt/man/model/Manager.hbm.xml</value>
+				<value>
+					com/carhartt/man/model/Shoppingcart.hbm.xml
+				</value>
+				<value>
+					com/carhartt/man/model/Announcement.hbm.xml
+				</value>
+				<value>
+					com/carhartt/man/model/Verification.hbm.xml
+
+				</value>
+				<value>
+					com/carhartt/man/model/Notification.hbm.xml
+				</value>
+				<value>com/carhartt/man/model/VSale.hbm.xml</value>
+				<value>com/carhartt/man/model/Adposition.hbm.xml</value>
+				<value>com/carhartt/man/model/Advertisement.hbm.xml</value>
+				<value>com/carhartt/man/model/Adinadp.hbm.xml</value>
+			</list>
+		</property>
+	</bean>
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	<!-- <tx:advice id="txAdvice" transaction-manager="transactionManager"> 
+		<tx:attributes> <tx:method name="get*" read-only="true" /> <tx:method name="*" 
+		/> </tx:attributes> </tx:advice> <aop:config> <aop:pointcut id="leePointcut" 
+		expression="execution(* org.leegang.service.impl.*Impl.*(..))" /> <aop:advisor 
+		advice-ref="txAdvice" pointcut-ref="leePointcut" /> </aop:config> -->
+	<import resource="applicationContext-ba.xml" />
+	<!-- <import resource="applicationContext-om.xml" /> -->
+	<!-- user -->
+	<import resource="applicationContext-um.xml" />
+	<import resource="applicationContext-su.xml" />
+	<import resource="applicationContext-om.xml" />
+	<!-- sm -->
+	<import resource="applicationContext-sm.xml" />
+	<!-- man_cm -->
+	<import
+		resource="com/carhartt/man/configxml/spring/cm/applicationContext-dao-cm.xml" />
+	<import
+		resource="com/carhartt/man/configxml/spring/cm/applicationContext-service-cm.xml" />
+	<import
+		resource="com/carhartt/man/configxml/spring/cm/applicationContext-action-cm.xml" />
+
+	<import
+		resource="com/carhartt/user/configxml/spring/applicationContext-user.xml" />
+
+	<bean id="UserDAO" class="com.carhartt.man.dao.UserDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="FavoritesDAO" class="com.carhartt.man.dao.FavoritesDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="MessageDAO" class="com.carhartt.man.dao.MessageDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="BroadclassDAO" class="com.carhartt.man.dao.BroadclassDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="OrderdetialsDAO" class="com.carhartt.man.dao.OrderdetialsDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="ConsigneeDAO" class="com.carhartt.man.dao.ConsigneeDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="OrderDAO" class="com.carhartt.man.dao.OrderDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="NotificationDAO" class="com.carhartt.man.dao.NotificationDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="UserinfoDAO" class="com.carhartt.man.dao.UserinfoDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="EvaluateDAO" class="com.carhartt.man.dao.EvaluateDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="AdpositionDAO" class="com.carhartt.man.dao.AdpositionDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="ItemDAO" class="com.carhartt.man.dao.ItemDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="SubclassDAO" class="com.carhartt.man.dao.SubclassDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="ManagerDAO" class="com.carhartt.man.dao.ManagerDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="ShoppingcartDAO" class="com.carhartt.man.dao.ShoppingcartDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="AnnouncementDAO" class="com.carhartt.man.dao.AnnouncementDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="AdvertisementDAO" class="com.carhartt.man.dao.AdvertisementDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+
+	<bean id="VerificationDAO" class="com.carhartt.man.dao.VerificationDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+
+	<bean id="VSaleDAO" class="com.carhartt.man.dao.VSaleDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="AdinadpDAO" class="com.carhartt.man.dao.AdinadpDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+</beans>
+

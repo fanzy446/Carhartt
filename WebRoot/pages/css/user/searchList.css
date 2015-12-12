@@ -1,0 +1,124 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12px;
+	font-family: Segoe UI, 微软雅黑, Calibri, Arial, Helvetica, sans-serif, 宋体;
+	color: #666;
+	background-color: #FFFFFF;
+}
+.clear {
+	clear: both;
+}
+.w {
+	width: 1000px;
+	margin: 0px auto;
+}
+.product_wrapper {
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+}
+.product_wrapper .title {
+	width: 100%;
+	height: 80px;
+	background: #FAFAF8;
+}
+.title h3,.htitle {
+	width: 85px;
+	line-height: 30px;
+	font-size: 16px;
+	border-bottom: solid 3px #B4CA20;
+	padding: 0px 20px;
+}
+.product_lst {
+	background: #fff;
+	border: 1px solid #f3f3f3;
+}
+
+.product_lst li {
+	width: 180px;
+	float: left;
+	margin-left: 10px;
+	padding-bottom: 12px;
+	_display: inline;
+}
+
+.product_lst li:hover,.product_lst li.hover {
+	opacity: 1;
+	filter: alpha(filter =   100);
+}
+
+.product_lst li.mask {
+	opacity: 0.6;
+	filter: alpha(opacity =   60; );
+	transition: opacity 0.3s ease-in;
+	-webkit-transition: opacity 0.3s ease-in;
+	-moz-transition: opacity 0.3s ease-in;
+}
+
+.product_lst .p_wrapper {
+	height: 230px;
+	padding: 0px 10px 8px 10px;
+	width: 160px;
+	border: 1px solid #fff;
+	position: relative;
+}
+
+.product_lst li:hover .p_wrapper,.product_lst li.hover .p_wrapper {
+	border: solid 1px #B4D020;
+}
+
+.product_lst .p_img {
+	width: 158px;
+	height: 158px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.product_lst .p_img img {
+	width: 158px;
+	height: 158px;
+}
+
+.product_lst .p_name {
+	height: 30px;
+	padding: 5px 0px 0px 0px;
+	word-break: break-all;
+	word-wrap: break-word;
+	overflow: hidden;
+	line-height: 120%;
+}
+
+.product_lst .p_name a {
+	display: block;
+	height: 30px;
+	overflow: hidden;
+}
+
+.product_lst .p_price {
+	color: #FF2E33;
+	font-size: 16px;
+	padding: 0px 0px 5px 0px;
+	float: left;
+	display: inline-block;
+	width: 50px;
+}
+
+.product_lst .p_price span {
+	color: #A0A0A0;
+	text-decoration: line-through;
+	font-size: 12px;
+	padding-left: 10px;
+	font-weight: normal;
+}
+
+.p_buy {
+	font-size: 14px;
+	display: inline-block;
+	float: right;
+}

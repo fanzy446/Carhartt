@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+	
+	<bean id="UserManAction" class="com.carhartt.man.action.UserManAction">
+		<property name="userManagerService" ref="userManagerService" />
+	</bean>
+	
+	<bean id="userManagerService" class="com.carhartt.man.service.impl.UserManagerServiceImpl">
+        <property name="userDao">
+			<ref bean="UserDAO"/>
+		</property>
+		<property name="userInfoDao">
+			<ref bean="UserinfoDAO"/>
+		</property>
+    </bean>
+    
+</beans>

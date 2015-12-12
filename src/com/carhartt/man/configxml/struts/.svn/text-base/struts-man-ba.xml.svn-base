@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="basicMan" namespace="/basicMan" extends="json-default">
+		<action name="*" class="com.carhartt.man.action.BasicManAction"
+			method="{1}">
+			<result name="superMan" type="redirect">/pages/jsp/man/su/superMan.html</result>
+			<result name="comMan" type="redirect">/pages/jsp/man/cm/comMan.html</result>
+			<result name="orderMan" type="redirect">/pages/jsp/man/om/orderMan.html</result>
+			<result name="synMan" type="redirect">/pages/jsp/man/sm/synMan.html</result>
+			<result name="userMan" type="redirect">/pages/jsp/man/um/userMan.html</result>
+			<result name="error" type="redirect">/pages/jsp/man/ba/error.html</result>
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>
+	</package>
+</struts>

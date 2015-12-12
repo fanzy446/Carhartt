@@ -1,0 +1,139 @@
+@CHARSET "UTF-8";
+
+.per_main {
+	width: 596px;
+	/*height: 500px;*/
+	background-color: #FAFAF8;
+}
+
+.per_top {
+	width: 596px;
+}
+
+.per_top img {
+	width: 596px;
+}
+
+.info_pane {
+	border-bottom: 3px dotted #CFCDC0;
+}
+.info_pane table{
+	width: 100%;
+}
+.info_pane tr {
+	height: 40px;
+}
+
+.info_pane span {
+	display: block;
+	text-align: center;
+	color: #666666;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+
+.hello {
+	height: 40px;
+	width: 596px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	border-bottom: 3px dotted #CFCDC0;
+}
+
+.hello span {
+	font-weight: bold;
+	width:400px;
+	display: block;
+	float: left;
+	margin-left: 18px;
+	margin-top: 18px;
+}
+
+.hello a {
+	float: right;
+	margin-right: 10px;
+	display: block;
+	margin-top: 18px;
+}
+
+.before_edit {
+	height: 26px;
+	width: 450px;
+	float: left;
+	font-size: 16px;
+	line-height: 26px;
+	border: 0px;
+	background-color: FAFAF8;
+	color: #66666F;
+}
+
+.after_edit {
+	height: 26px;
+	width: 450px;
+	background-color: white;
+}
+
+.pass_info {
+/* 	border-bottom: 3px dotted #CFCDC0; */
+}
+
+.pass_info table {
+	width: 100%;
+}
+.pass_info tr{
+	height: 40px;
+}
+.pass_info span {
+	display: block;
+	text-align: center;
+	color: #666666;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+
+.handin {
+	text-align: center;
+	display: none;
+}
+
+.handin input{
+	width: 100px;
+	height: 30px;
+	background-color: #F2F1D7;
+	border: 0;
+	cursor: pointer;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	color: #666666;
+}
+
+.save:HOVER {
+	background-color: #ECF8F3;
+}
+.order_ad {
+	width: 596px;
+}
+
+.order_ad img {
+	width: 596px;
+}
+
+.ok {
+	width: 596px;
+	height: 30px;
+	background-color: #FAFAF8;
+	float: left;
+	border-bottom: 5px solid white;
+}
+
+.per_main input{
+	color: #666666;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+
+#mysex{
+	color: #666666;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}

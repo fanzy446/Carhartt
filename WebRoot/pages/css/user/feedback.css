@@ -1,0 +1,200 @@
+@CHARSET "UTF-8";
+
+.feedback_main {
+	width: 596px;
+}
+
+.feedback_top_ad {
+	width: 596px;
+}
+
+.feedback_top_ad img {
+	width: 596px;
+}
+
+.feedback_intro {
+	width: 596px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.feedback_intro img {
+	width: 594px;
+	border: 1px solid silver;
+	/* margin-left: 10px; */
+}
+
+/*------选项卡按钮------*/
+.select_card {
+	height: 30px;
+	width: 596px;
+	/* margin-left: 10px; */
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #66666F;
+	text-align: center;
+}
+
+.select_card span {
+	display: block;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+/*------选项卡按钮------*/
+
+/*------反馈填写面板------*/
+.feedback_input_pane {
+	width: 596px;
+	/* 	margin-left: 10px;
+	border: 1px solid silver; */
+}
+
+.feedback_input_pane table {
+	width: 100%;
+}
+
+.feedback_input_pane tr {
+	height: 40px;
+}
+
+.feedback_input_pane span {
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	color: #666666;
+}
+
+.tr_head {
+	background-color: #F2F1D7;
+	font-weight: bold;
+}
+
+.txt {
+	width: 80%;
+	height: 90%;
+}
+
+.input_phone {
+	width: 200px;
+	height: 80%;
+}
+
+/*------反馈读取面板------*/
+.feedback_read_pane {
+	width: 596px;
+	/* margin-left: 10px;
+	border: 1px solid silver; */
+}
+
+.feedback_read_pane table {
+	width: 596px;
+	/* margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px; */
+	text-align: center;
+}
+
+.feedback_read_pane tr {
+	height: 40px;
+}
+
+.feedback_read_pane span {
+	font-size: 15px;
+	font-family: "微软雅黑";
+	color: #666666;
+}
+
+.feedback_ad {
+	width: 596px;
+}
+
+.feedback_ad img {
+	width: 596px;
+}
+
+.ok {
+	width: 596px;
+	height: 30px;
+	background-color: #FAFAF8;
+	float: left;
+	border-bottom: 5px solid white;
+}
+
+/*------bootstrap样式------*/
+.table-hover tbody tr:hover>td,.table-hover tbody tr:hover>th {
+	background-color: #f5f5f5;
+}
+
+.table-hover tbody tr.success:hover>td {
+	background-color: #d0e9c6;
+}
+
+.table-hover tbody tr.error:hover>td {
+	background-color: #ebcccc;
+}
+
+.table-hover tbody tr.warning:hover>td {
+	background-color: #faf2cc;
+}
+
+.table-hover tbody tr.info:hover>td {
+	background-color: #c4e3f3;
+}
+/*------bootstrap样式------*/
+.btn {
+	width: 100px;
+	height: 30px;
+	background-color: #F2F1D7;
+	border: 0;
+	cursor: pointer;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	color: #666666;
+}
+
+.btn:HOVER {
+	background: #ECF8F3;
+}
+
+#sel_feed_type span {
+	display: inline;
+}
+
+.pages {
+	height: 30px;
+	width: 596px;
+	/* margin-left: 10px; */
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #66666F;
+	text-align: center;
+	background-color: green;
+}
+
+#frp_page {
+	display: none;
+}
+
+#inputContent,#inputTitle {
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #666666;
+}
+
+#norecord {
+	width: 596px;
+	height: 50px;
+	display: none;
+}
+
+#norecord span {
+	display: block;
+	margin-top: 10px;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	float: left;
+	margin-left: 270px;
+	color: #666666;
+}

@@ -1,0 +1,295 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12px;
+	font-family: Segoe UI, 微软雅黑, Calibri, Arial, Helvetica, sans-serif, 宋体;
+	color: #666;
+	background-color: #FFFFFF;
+}
+
+li {
+	list-style-type: none;
+}
+
+#order_content span {
+	white-space: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-size: medium;
+	font-variant: normal;
+	font-style: normal;
+	color: -webkit-text;
+	text-align: start;
+}
+
+.w {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+.red {
+	color: #C00;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.clearfix:after {
+	content: ".";
+	font-size: 0;
+	height: 0;
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+
+.clearfix {
+	*zoom: 1
+}
+
+#order_content {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.htitle {
+	width: 185px;
+	line-height: 30px;
+	font-size: 16px;
+	border-bottom: solid 3px #B4CA20;
+}
+
+#cartlst .lsttable {
+	width: 1000px;
+	border-spacing: 0px;
+	text-align: center;
+	margin: 15px 0px 20px 0px;
+	border: 1px solid #F3F3F3;
+	background-color: #fff;
+}
+
+#cartlst .lsttable td {
+	vertical-align: top;
+	padding-top: 15px;
+	line-height: 100%;
+	padding-bottom: 15px;
+}
+
+#cartlst .lsttable td.cell_goods {
+	position: relative;
+	text-align: left;
+	padding: 8px 0px 8px 20px;
+}
+
+#cartlst .lsttable tr .name {
+	width: 330px;
+	height: 52px;
+	display: inline-block;
+	vertical-align: top;
+	word-break: break-all;
+	wrod-wrap: break-word;
+	line-height: 18px;
+	text-align: left;
+	margin-left: 10px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#cartlst .lsttable td.cell_goods a:hover {
+	text-decoration: none;
+}
+
+#cartlst .lsttable tr .name a:hover {
+	text-decoration: underline;
+}
+
+#cartlst .lsttable tr a img{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #CECFCE;
+	font-size: 16px;
+	color: #666666;
+	font-family: "微软雅黑";
+}
+
+#cartlst .lsttable th {
+	background-color: #f3f3f3;
+	height: 45px;
+	line-height: 45px;
+	font-size: 16px;
+	color: #666666;
+	font-family: "微软雅黑";
+}
+
+#cartlst .lsttable .cell_goods {
+	width: 200px;
+}
+
+#cartlst .lsttable .cell_normal {
+	width: 90px;
+}
+
+#cartlst .lsttable .cell_cb {
+	width: 150px;
+}
+
+#cartlst .wrapbuynum {
+	float: none;
+	margin: -5px 0px 0px 15px;
+}
+
+.lsttable input{
+	font-size: 16px;
+	color: #666666;
+	font-family: "微软雅黑";
+	height: 35px;
+}
+
+#order_content .chlst {
+	padding: 20px 0px 15px 20px;
+	background: #fff;
+	border: 1px solid #F3F3F3;
+}
+
+#order_content .chlst li {
+	line-height: 25px;
+}
+
+#order_content .chlst li label {
+	display: inline-block;
+	width: 90px;
+	margin-left: 10px;
+}
+
+#order_content #ordermsg {
+	height: 120px;
+	padding: 5px 10px 5px 5px;
+	position: relative;
+	border: 1px solid #f3f3f3;
+}
+
+#order_content #ordermsg textarea {
+	height: 70px;
+	width: 600px;
+}
+
+#order_content #ordermsg div {
+	text-align: right;
+	margin-top: 30px;
+	font-size: 14px;
+}
+
+#order_content #ordermsg p {
+	margin-top: 15px;
+}
+
+.green_btn,.gray_btn {
+	text-align: right;
+	margin: 20px 20px 20px 0px;
+}
+
+.green_btn a,.gray_btn a {
+	display: inline-block;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 31px;
+	width: 118px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.green_btn a {
+	background: #B4CA20 url("image/login_btn.png") left top repeat-x;
+}
+
+.green_btn a:hover {
+	background: #A2B51D url("image/login_btn_hover.png") left top repeat-x;
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn{
+	width:  180px;
+	height: 30px;
+	background-color: #B4CA20;
+	border: 0px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btn:HOVER{
+	background-color: green;
+}
+
+.border_add{
+	border: 1px solid #f3f3f3;
+	height: 50px;
+	
+}
+.border_add span{
+	font-size: 16px;
+	color: #666666;
+	font-family: "微软雅黑";
+}
+
+.last_btn{
+	height: 50px;
+	margin-top: 20px;
+}
+
+.comment_input{
+	width: 180px;
+	height: 30px;
+	border: 1px;
+	background-color: #ffffff;
+	border: 1px solid #B4CA20;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.submit_btn{
+	width:  80px;
+	height: 30px;
+	background-color: #B4CA20;
+	border: 0px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	margin-right: 10px;
+}
+.submit_btn:HOVER{
+	background-color: green;
+}
+
+.deliverForm span{
+	font-size: 16px;
+	color: #666666;
+	font-family: "微软雅黑";
+	
+}
+
+#address_tb td{
+	font-size: 16px;
+	color: #666666;
+	font-family: "微软雅黑";
+	height: 30px;
+}
+#item_tb span{
+	font-size: 16px;
+	color: #666666;
+	font-family: "微软雅黑"; 
+}

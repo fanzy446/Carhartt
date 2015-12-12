@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/carHartt/!svn/ver/465/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model
+END
+Broadclass.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/carHartt/!svn/ver/399/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Broadclass.hbm.xml
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/carHartt/!svn/ver/310/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/User.java
+END
+Subclass.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/carHartt/!svn/ver/381/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Subclass.hbm.xml
+END
+Userinfo.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/carHartt/!svn/ver/348/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Userinfo.hbm.xml
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/carHartt/!svn/ver/491/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Message.java
+END
+Announcement.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/carHartt/!svn/ver/165/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Announcement.java
+END
+Advertisement.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/carHartt/!svn/ver/529/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Advertisement.java
+END
+Orderdetials.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/carHartt/!svn/ver/165/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Orderdetials.java
+END
+Advertisement.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/carHartt/!svn/ver/534/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Advertisement.hbm.xml
+END
+Message.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/carHartt/!svn/ver/491/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Message.hbm.xml
+END
+Announcement.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/carHartt/!svn/ver/348/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Announcement.hbm.xml
+END
+Shoppingcart.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/carHartt/!svn/ver/549/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Shoppingcart.hbm.xml
+END
+Userinfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/carHartt/!svn/ver/229/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Userinfo.java
+END
+User.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/carHartt/!svn/ver/447/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/User.hbm.xml
+END
+Adposition.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/carHartt/!svn/ver/531/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Adposition.hbm.xml
+END
+Order.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/carHartt/!svn/ver/348/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Order.hbm.xml
+END
+Item.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/carHartt/!svn/ver/566/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Item.hbm.xml
+END
+Order.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/carHartt/!svn/ver/318/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Order.java
+END
+Manager.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/carHartt/!svn/ver/310/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Manager.java
+END
+Commodity.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/carHartt/!svn/ver/524/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Commodity.java
+END
+Adposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/carHartt/!svn/ver/498/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Adposition.java
+END
+Favorites.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/carHartt/!svn/ver/436/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Favorites.hbm.xml
+END
+Notification.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/carHartt/!svn/ver/310/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Notification.java
+END
+Evaluate.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/carHartt/!svn/ver/348/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Evaluate.hbm.xml
+END
+Shoppingcart.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/carHartt/!svn/ver/165/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Shoppingcart.java
+END
+Verification.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/carHartt/!svn/ver/348/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Verification.hbm.xml
+END
+Itemtemp.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/carHartt/!svn/ver/524/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Itemtemp.java
+END
+VSale.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/carHartt/!svn/ver/465/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/VSale.hbm.xml
+END
+Adinadp.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/carHartt/!svn/ver/505/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Adinadp.java
+END
+Consignee.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/carHartt/!svn/ver/348/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Consignee.hbm.xml
+END
+Consignee.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/carHartt/!svn/ver/348/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Consignee.java
+END
+Orderdetials.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/carHartt/!svn/ver/348/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Orderdetials.hbm.xml
+END
+VSale.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/carHartt/!svn/ver/465/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/VSale.java
+END
+Adinadp.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/carHartt/!svn/ver/514/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Adinadp.hbm.xml
+END
+Verification.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/carHartt/!svn/ver/291/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Verification.java
+END
+Evaluate.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/carHartt/!svn/ver/165/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Evaluate.java
+END
+Subclass.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/carHartt/!svn/ver/165/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Subclass.java
+END
+Favorites.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/carHartt/!svn/ver/165/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Favorites.java
+END
+Notification.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/carHartt/!svn/ver/334/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Notification.hbm.xml
+END
+Broadclass.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/carHartt/!svn/ver/174/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Broadclass.java
+END
+Manager.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/carHartt/!svn/ver/310/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Manager.hbm.xml
+END
+Item.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/carHartt/!svn/ver/383/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/Item.java
+END
+SearchCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/carHartt/!svn/ver/462/%E9%A1%B9%E7%9B%AE%E6%BA%90%E4%BB%A3%E7%A0%81/Carhartt/src/com/carhartt/man/model/SearchCondition.java
+END

@@ -1,0 +1,124 @@
+@CHARSET "UTF-8";
+
+.order_main {
+	width: 596px;
+	/*height: 500px;*/
+}
+
+.order_top {
+	width: 596px;
+}
+
+.order_top img {
+	width: 596px;
+}
+
+.hello {
+	height: 40px;
+	width: 596px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	border-bottom: 3px dotted #CFCDC0;
+}
+
+.hello span {
+	font-weight: bold;
+	width:400px;
+	display: block;
+	float: left;
+	margin-left: 18px;
+	margin-top: 18px;
+}
+
+.hello a {
+	float: right;
+	margin-right: 10px;
+	display: block;
+	margin-top: 18px;
+}
+.order_pane {
+	width: auto;
+/* 	border: 1px solid silver; */
+}
+
+.order_pane table {
+	width: 100%;
+}
+
+.order_pane tr {
+	height: 40px;
+}
+
+.tr_head {
+	background-color: #F2F1D7;
+	font-weight: bold;
+}
+
+.order_pane span {
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	color: #666666;
+}
+
+.order_ad {
+	width: 596px;
+}
+
+.order_ad img {
+	width: 596px;
+}
+
+.ok {
+	width: 596px;
+	height: 30px;
+	background-color: #FAFAF8;
+	float: left;
+	border-bottom: 5px solid white;
+}
+
+/*------bootstrap样式------*/
+.table-hover tbody tr:hover>td,.table-hover tbody tr:hover>th {
+	background-color: #f5f5f5;
+}
+
+.table-hover tbody tr.success:hover>td {
+	background-color: #d0e9c6;
+}
+
+.table-hover tbody tr.error:hover>td {
+	background-color: #ebcccc;
+}
+
+.table-hover tbody tr.warning:hover>td {
+	background-color: #faf2cc;
+}
+
+.table-hover tbody tr.info:hover>td {
+	background-color: #c4e3f3;
+}
+/*------bootstrap样式------*/
+
+.btn{
+	width: 100px;
+	height: 30px;
+	background-color: #EAF8FF;
+	border: 0;
+	
+}
+
+.order_pane button{
+	width: 100px;
+	height: 30px;
+	background-color: #F2F1D7;
+	border: 0;
+	cursor: pointer;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	color: #666666;
+}
+
+.order_pane button:HOVER {
+	background: #ECF8F3;
+}

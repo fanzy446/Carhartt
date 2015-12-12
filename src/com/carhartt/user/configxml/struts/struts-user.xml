@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="personalaction" extends="json-default">
+		<action name="getpersonalinfo" class="personalcenteraction"
+			method="getpersonalinfo">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+		</action>
+		<action name="changepersonalinfo" class="personalcenteraction"
+			method="changepersonalinfo">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+		</action>
+		<action name="changepassword" class="personalcenteraction"
+			method="changepassword">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+        </action>
+        <action name="sendnumber" class="personalcenteraction"  method="sendnumber">
+            <result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+        </action>
+        <action name="getorders" class="personalcenteraction"  method="getorders">
+            <result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+        </action>
+        <action name="getoneorder" class="personalcenteraction"  method="getoneorder">
+            <result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+        </action>
+        <action name="getoneorder2" class="personalcenteraction"  method="getoneorder2">
+            <result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+        </action>
+        <action name="changeordercancel" class="personalcenteraction"  method="changeordercancel">
+            <result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+        </action>
+        <action name="changeorderreceive" class="personalcenteraction"  method="changeorderreceive">
+            <result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+        </action>
+        <action name="changeorderdelete" class="personalcenteraction"  method="changeorderdelete">
+            <result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+        </action>
+        <action name="getoneuserallmessage" class="personalcenteraction"  method="getoneuserallmessage">
+            <result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+		</action>
+		<action name="getonemessage" class="personalcenteraction"
+			method="getonemessage">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+		</action>
+		<action name="addmessage" class="personalcenteraction" method="addmessage">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+		</action>
+		<action name="getaddress" class="personalcenteraction" method="getaddress">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+		</action>
+		<action name="getoneaddress" class="personalcenteraction"
+			method="getoneaddress">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+		</action>
+		<action name="addaddress" class="personalcenteraction" method="addaddress">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+		</action>
+		<action name="deladdress" class="personalcenteraction" method="deladdress">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+		</action>
+		<action name="getoneshoppingcart" class="personalcenteraction" method="getoneshoppingcart">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+		</action>
+		<action name="delshoppingcart" class="personalcenteraction" method="delshoppingcart">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+		</action>
+		<action name="getFavorites" class="personalcenteraction"
+			method="getFavorites">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+		</action>
+		<action name="delFavorite" class="personalcenteraction"
+			method="delFavorite">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+		</action>
+		<action name="addToCart" class="personalcenteraction"
+			method="addToCart">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+		</action>
+		
+		<action name="getalldetails" class="personalcenteraction"
+			method="getalldetails">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+		</action>
+		<action name="getalldetails2" class="personalcenteraction"
+			method="getalldetails2">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+		</action>
+		<action name="addevaluate" class="personalcenteraction"
+			method="addevaluate">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+		</action>
+		<action name="addorder" class="personalcenteraction"
+			method="addorder">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+		</action>
+		<action name="changeshoppingcart" class="personalcenteraction"
+			method="changeshoppingcart">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+		</action>
+		<action name="getannouncement" class="personalcenteraction"
+			method="getannouncement">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+		</action>
+	</package>
+
+	<package name="UserBasic" namespace="/UserBasic" extends="json-default">
+		<action name="userLogin" class="UserBasicAction" method="userLogin">
+			<result type="json" name="success">
+				<param name="root">jsonMap</param>
+			</result>
+		</action>
+		<action name="findBackPass" class="UserBasicAction" method="findBackPass">
+			<result type="json">
+				<param name="root">jsonMap</param>
+			</result>
+		</action>
+		<action name="register" class="UserBasicAction" method="register">
+			<result type="json">
+				<param name="root">jsonMap</param>
+			</result>
+		</action>
+		<action name="userLogout" class="UserBasicAction" method="userLogout">
+			<result type="json">
+				<param name="root">jsonMap</param>
+			</result>
+		</action>
+		<action name="certificate" class="UserBasicAction" method="certificate">
+			<result type="json">
+				<param name="root">jsonMap</param>
+			</result>
+		</action>
+		<action name="activate" class="UserBasicAction" method="activate">
+			<result >/pages/jsp/user/spurToIndex.jsp</result>
+			<result type="json" name="error">
+				<param name="root">jsonMap</param>
+			</result>
+		</action>
+		<action name="sendEmail" class="UserBasicAction" method="sendEmail">
+			<result type="json">
+				<param name="root">jsonMap</param>
+			</result>
+		</action>
+		<!--
+			<action name="fetchAnouncement" class="UserBasicAction"
+			method="fetchAnouncement"> <result type="json"> <param
+			name="root">jsonMap</param> </result> </action> <action
+			name="fetchAdvertisement" class="UserBasicAction"
+			method="fetchAdvertisement"> <result type="json"> <param
+			name="root">jsonMap</param> </result> </action>
+		-->
+	</package>
+	<package name="UserConsuming" namespace="/UserConsuming"
+		extends="json-default">
+		<action name="searchItems" class="UserConsumingAction" method="searchItems">
+			<result type="json">
+				<param name="root">jsonMap</param>
+			</result>
+		</action>
+		<action name="addFavorites" class="UserConsumingAction" method="addFavorites">
+			<result type="json">
+				<param name="root">jsonMap</param>
+			</result>
+        </action>
+        <action name="getComments" class="UserConsumingAction" method="getComments">
+			<result type="json">
+				<param name="root">jsonMap</param>
+			</result>
+		</action>
+		<action name="comment" class="UserConsumingAction" method="comment">
+			<result> denglu</result>
+			<result type="json" name="error">
+				<param name="root">jsonMap</param>
+			</result>
+		</action>
+		<action name="addShoppingCart" class="UserConsumingAction"
+			method="addShoppingCart">
+			<result type="json">
+				<param name="root">jsonMap</param>
+			</result>
+        </action>
+        <action name="checkComDetail" class="UserConsumingAction" method="checkComDetail">
+			<result type="json">
+				<param name="root">jsonMap</param>
+			</result>
+        </action>
+    </package>
+    <package name="PageShow" namespace="/PageShow" extends="json-default">
+    	<action name="showIndex" class="PageShowAction" method="showIndex">
+    		<result type="json">
+    			<param name="root">jsonMap</param>
+    		</result>
+    	</action>
+    </package>
+</struts>

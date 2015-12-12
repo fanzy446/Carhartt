@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin-top: 0px;
+}
+
+.header {
+	background-color: #434343;
+	height: 35px;
+	width: 100%;
+	min-width: 1366px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.header_middle{
+	width: 1000px;;
+	height:35px;
+	margin: 0 auto;
+}
+
+.inheader {
+	width:400px;
+	margin-top: 6px;
+	float: left;
+}
+
+.headerFont {
+	margin-right: 15px;
+	color: #7af1dd;
+	font-size: 16px;
+	font-family: Microsoft YaHei;
+	text-decoration: none;
+}
+
+.navigationHeader {
+	width: 100%;
+	height: 65px;
+	background: #fee6b8;
+}
+
+.navigtionContent {
+	width: 1000px;
+	height:65px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 125px;
+	height: 65px;
+	float: left;
+}
+
+.logo img{
+	width: 125px;
+	height: 65px;
+}
+.navigation {
+	display: inline;
+	height: 65px;
+	width: 660px;
+	float: left;
+}
+
+.search {
+	height: 65px;
+	width: 210px;
+	float: left;
+	margin-left: 5px;
+}
+
+.searchInput {
+	height: 26px;
+	width: 160px;
+	float: left;
+	margin-left: 0px;
+	margin-top: 15px;
+	font-size: 16px;
+	line-height: 26px;
+	border: 0px;
+	font-family: Microsoft YaHei;
+}
+
+.searchButton {
+	height: 26px;
+	width: 50px;
+	float: left;
+	margin-top: 15px;
+	background-color: #333;
+	color: #FFF;
+	font-family: Microsoft YaHei;
+	font-size: 16px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.searchButton:hover {
+	background-color: #09F;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.nav_item {
+	float: left;
+	width: 70px;
+	height: 28px;
+	margin-top: 16px;
+	border-left:3px #269888 solid;
+}
+
+.nav_item2{
+	float: left;
+	width: 108px;
+	height: 28px;
+	margin-top: 16px;
+	border-left:3px #269888 solid;
+}
+
+.select {
+	border-left: #C33 solid;
+}
+
+.nav_item a {
+	display: block;
+	font-size: 16px;
+	font-family: Microsoft YaHei;
+	font-style: normal;
+	text-decoration: none;
+	color: #333;
+	text-align: center;
+}
+.nav_item2 a {
+	display: block;
+	font-size: 16px;
+	font-family: Microsoft YaHei;
+	font-style: normal;
+	text-decoration: none;
+	color: #333;
+	text-align: center;
+}
+
+.nav_list {
+	margin-left:25px;
+	list-style: none;
+	width: 635px;
+	height: 65px;
+}

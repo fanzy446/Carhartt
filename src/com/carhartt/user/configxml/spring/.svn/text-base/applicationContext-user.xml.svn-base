@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd"
+	default-autowire="byName">
+
+	<bean id="UserConsumingService" class="com.carhartt.user.service.impl.UserConsumingServiceImpl">
+		<property name="userDao" ref="UserDAO" />
+		<property name="itemDao" ref="ItemDAO" />
+		<property name="favoritesDao" ref="FavoritesDAO" />
+		<property name="evaluateDao" ref="EvaluateDAO" />
+		<property name="shoppingcartDao" ref="ShoppingcartDAO"/>
+		<property name="vsaleDao" ref="VSaleDAO" />
+	</bean>
+	<bean id="UserBasicService" class="com.carhartt.user.service.impl.UserBasicServiceImpl">
+		<property name="userDao" ref="UserDAO" />
+		<property name="userinfoDao" ref="UserinfoDAO" />
+		<property name="verificationDao" ref="VerificationDAO" />
+	</bean>
+	<bean id="PageShowService" class="com.carhartt.user.service.impl.PageShowServiceImpl">
+		<property name="itemDao" ref="ItemDAO" />
+		<property name="broadclassDao" ref="BroadclassDAO" />
+		<property name="adpositionDao" ref="AdpositionDAO" />
+		<property name="announcementDao" ref="AnnouncementDAO" />
+		<property name="adinadpDao" ref="AdinadpDAO" />
+	</bean>
+	<bean id="PersonalcenterService"
+		class="com.carhartt.user.service.impl.PersonalcenterServiceImpl">
+		<property name="userdao" ref="UserDAO" />
+		<property name="userinfodao" ref="UserinfoDAO" />
+		<property name="consigneedao" ref="ConsigneeDAO" />
+		<property name="shoppingcartdao" ref="ShoppingcartDAO" />
+		<property name="orderdao" ref="OrderDAO" />
+		<property name="favoritesdao" ref="FavoritesDAO" />
+		<property name="messagedao" ref="MessageDAO" />
+		<property name="orderdetailsdao" ref="OrderdetialsDAO"></property>
+		<property name="itemdao" ref="ItemDAO"></property>
+		<property name="evaluatedao" ref="EvaluateDAO"></property>
+		<property name="verificationdao" ref="VerificationDAO" />
+		<property name="announcementdao" ref="AnnouncementDAO" />
+		<property name="notificationdao" ref="NotificationDAO" />
+	</bean>
+	<bean id="personalcenteraction" class="com.carhartt.user.action.PersonalCenterAction"
+		scope="prototype">
+		<property name="PS" ref="PersonalcenterService"></property>
+		<property name="userConsumingService" ref="UserConsumingService"></property>
+	</bean>
+	<!-- <bean id="getperinfoservice" class="com.carhartt.user.service.impl.PersonalcenterServiceImpl"> 
+		<property name="userdao"> <ref bean="UserDAO"></ref> </property> <property 
+		name="userinfodao"> <ref bean="UserinfoDAO"></ref> </property> </bean> <bean 
+		id="PersonalCenterAction" class="com.carhartt.user.action.PersonalCenterAction" 
+		scope="prototype"> <property name="pis" ref="getperinfoservice"></property> 
+		</bean> -->
+	<bean id="UserBasicAction" class="com.carhartt.user.action.UserBasicAction"
+		scope="prototype">
+		<property name="userBasicService" ref="UserBasicService"></property>
+	</bean>
+
+	<bean id="UserConsumingAction" class="com.carhartt.user.action.UserConsumingAction"
+		scope="prototype">
+		<property name="userConsumingService" ref="UserConsumingService"></property>
+	</bean>
+
+	<bean id="PageShowAction" class="com.carhartt.user.action.PageShowAction"
+		scope="prototype">
+		<property name="pageShowService" ref="PageShowService"></property>
+	</bean>
+
+</beans>

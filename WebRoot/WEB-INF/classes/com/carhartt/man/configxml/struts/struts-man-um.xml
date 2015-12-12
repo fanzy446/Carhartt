@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="userMan" namespace="/userMan" extends="json-default">
+		<action name="*" class="com.carhartt.man.action.UserManAction"
+			method="{1}">
+			<result type="json">
+				<param name="root"> jsonMap </param>
+			</result>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>		
+	</package>
+</struts>

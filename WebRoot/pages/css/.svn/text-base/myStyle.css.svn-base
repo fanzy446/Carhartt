@@ -1,0 +1,104 @@
+.logo_header {
+	margin-top: 8px;
+	font-size: 25px;
+}
+
+.icon_btn_view {
+	background: url(../resources/images/view.png) left top no-repeat
+		!important;
+}
+
+.icon_btn_freeze {
+	background: url(../resources/images/freeze.png) left top no-repeat
+		!important;
+}
+
+.pos_form {
+	position: absolute;
+	left: 860px;
+	top: 180px;
+	padding: 10px;
+	font-family: Georgia;
+	width: 280px;
+	font-size: 125%;
+	height: 200px;
+	border: 1px solid #00c;
+}
+
+.pos_form2 {
+	position: absolute;
+	left: 860px;
+	top: 180px;
+	padding: 10px;
+	font-family: Georgia;
+	width: 280px;
+	font-size: 125%;
+	height: 235px;
+	border: 1px solid #00c;
+}
+
+.pos_login_psd_err {
+	position: absolute;
+	left: 860px;
+	top: 180px;
+	padding: 10px;
+	font-family: Georgia;
+	width: 280px;
+	font-size: 125%;
+	height: 235px;
+	border: 1px solid #00c;
+}
+
+.pos_register_check_id {
+	position: absolute;
+	left: 860px;
+	top: 180px;
+	padding: 10px;
+	font-family: Georgia;
+	width: 280px;
+	font-size: 125%;
+	height: 250px;
+	border: 1px solid #00c;
+}
+
+.body_style {
+	background: url(../resources/images/login_form_background.jpg);
+	background-size: 100% 750px;
+}
+
+.pos_background {
+	position: relative;
+	left: 20px;
+	bottom: 180px
+}
+
+.icon_btn_delete {
+	background: url(../resources/images/delete.png) left top no-repeat
+		!important;
+}
+
+.icon_btn_add {
+	background: url(../resources/images/add.png) left top no-repeat
+		!important;
+}
+
+.icon_btn_edit {
+	background: url(../resources/images/edit.png) left top no-repeat
+		!important;
+}
+
+.icon_btn_detail {
+	background: url(../resources/images/view.png) left top no-repeat
+		!important;
+}
+.icon_btn_search {
+	background: url(../resources/images/search.png) left top no-repeat
+		!important;
+}
+.icon_btn_reset {
+	background: url(../resources/images/reset.png) left top no-repeat
+		!important;
+}
+.x-grid3-row td,.x-grid3-summary-row,.x-grid-row td {
+	height: 21px;
+}

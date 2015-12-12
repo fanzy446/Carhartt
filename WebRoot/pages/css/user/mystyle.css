@@ -1,0 +1,919 @@
+*{
+width:100%;
+padding:0px;
+margin:0px;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif,Microsoft YaHei;
+	margin: 0px;
+	background:#f2f2f2;
+
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainContent{
+	width:1130px;
+	height:auto;
+	background:#FFF;
+	overflow:hidden;
+	position:relative;
+	top:0px;
+}
+
+.photoContent{
+	width:960px;
+	height:auto;
+	background:#FFF;
+}
+
+.photoCol{
+	width:225px;
+	height:auto;
+	float:left;
+	margin-left:20px;
+}
+
+.firstCol{
+	margin-left:0px;
+}
+
+
+.goodsPhoto{
+	width:225px;
+	height:auto;
+}
+
+.goodsPhoto img{
+	max-width:225px;
+	width:expression(this.Width> 225?"225px":"auto" );
+	display:block;
+	border:0;
+
+}
+
+
+
+.shareButton{
+	width:78px;
+	height:30px;
+	position:absolute;
+	top:5px;
+	left:5px;
+}
+
+
+.goodsBlock{
+	width:225px;
+	height:auto;
+	background:#fff1d7;
+	position:relative;
+	margin-top:20px;
+	box-shadow: 1px 1px 3px 1px #999;
+}
+
+.goodsInfrom{
+	width:225px;
+	height:50px;
+}
+
+.goodsName{
+	width: 225px;
+	height: 30px;
+	position: absolute;
+	left: 0px;
+	text-align:center;
+	bottom:50px;
+}
+
+.headPhotoBlock{
+	height:50px;
+	width:50px;
+	float:left;
+
+}
+
+.headPhoto{
+	height:35px;
+	width:35px;
+	margin-left:5px;
+	margin-top:7px;
+	box-shadow: 1px 1px 3px 1px #999;
+
+}
+
+.InformBlock{
+	height:50px;
+	width:175px;
+	float:left;
+
+}
+
+.goodsName a{
+	color:#FFF;
+	font-family:Microsoft YaHei;
+	font-size:16px;
+	margin-top:3px;
+	text-decoration:none;
+	position:relative;
+	display:block;
+}
+
+.goodsName a:hover{
+	color:#39F;
+}
+
+.shareInfrom a{
+	font-family:Microsoft YaHei;
+	color:#999;
+	font-size:14px;
+	margin-top:3px;
+	text-decoration:none;
+}
+
+.shareInfrom a:hover{
+	color:#39F;
+}
+.shareInfrom span{
+	font-family:Microsoft YaHei;
+	color:#000;
+	font-size:14px;
+	margin-top:3px;
+	text-decoration:none;
+	
+}
+.shareInfrom {
+	margin-top:5px;
+	text-align:left;
+	margin-left:10px;
+	height:20px;
+}
+
+.likeInfrom span img{
+	width:15px;
+	height:13px;
+	float:right;
+	margin-top:2px;
+}
+.likeInfrom span a{
+	color:#ff5e6e;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	float:right;
+	width:30px;
+	font-weight:900;
+	text-decoration:none;
+}
+
+.likeInfrom span a:hover{
+	text-decoration:underline;
+}
+
+.likeInfrom{
+	height:20px;
+	width:160px;
+}
+
+.welcome{
+	position:relative;
+	margin-top:20px;
+	height:370px;
+	width:960px;
+}
+
+.welcomeImg{
+	height:370px;
+	width:960px;
+}
+
+
+.welcomeWord{
+	height:42px;
+	width:960px;
+	position: absolute;
+	left:0px;
+	bottom:0px;
+	text-align:left;
+}
+
+.welcomeWord h1{
+	position:relative;
+	color:#FFF;
+	float:left;
+	margin-top:10px;
+	margin-left:20px;
+	font-family:Microsoft YaHei;
+	font-size:16px;
+	font-weight:500;
+	width:auto;
+}
+
+.welcomeWord a{
+	background:#3eb1f0;
+	text-decoration:none;
+	border-bottom:solid 1px #1fabe7;
+	text-align:center;
+	color:#fff;
+	border-radius:2px;
+	overflow:hidden;
+	float:left;
+	width:90px;
+	height:24px;
+	margin-top:8px;
+	line-height:24px;
+	margin-left:20px;
+	font-family:Microsoft YaHei;
+	font-size:14px;
+}
+
+.welcomeWord a:hover{
+	background:#0CF;
+	border-bottom:solid 1px #0CF;
+}
+
+
+
+
+
+
+.newLableBlock{
+	width:960px;
+	height:30px;
+	margin-top:10px;
+	background:url(source/image/new.png)  no-repeat;
+	text-align:left;
+}
+
+.newLableBlock h1{
+	position:relative;
+	margin-left:65px;
+	font-family:Microsoft YaHei;
+	font-size:15px;
+	font-weight:300;
+	top:6px;
+
+}
+
+.newLableBlock .partitioningLine{
+	margin-top:10px;
+	width:960px;
+	height:3px;
+	background:#ffcfa7;
+	position:relative;
+}
+
+.readingButtom{
+	position:relative;
+	width:960px;
+	height:25px;
+	margin-top:20px;
+	float:left;
+	margin-left:85px;
+}
+
+.footer{
+	position:relative;
+	width:960px;
+	height:60px;
+	margin-top:20px;
+	float:left;
+	margin-left:85px;
+	
+}
+
+
+.about_us{
+	height:30px;
+	width:420px;
+}
+
+
+.about_us li{
+	float:left;
+	list-style:none;
+	width:60px;
+}
+
+
+.about_us li a{
+	font-family:Microsoft YaHei;
+	font-size:12px;
+	color:#CCC;
+	text-decoration:none;
+}
+
+.about_us  li a:hover{
+	text-decoration:underline;
+}
+
+.footer h1{
+	color:#E1E1E1;
+	font-size:14px;
+	font-weight:400;
+}
+
+
+.loginFrame{
+	background:url(source/image/whiteBackground70.png) repeat;
+	position:fixed;
+	top:0;
+	left:0;
+	height:100%
+}
+
+.loginBlock{
+	width:400px;;
+	height:auto;
+	background:#FFF;
+	margin-top:10%;
+	border-style:solid;
+	border-width:2px; 
+	border-color:#DDD;
+	
+}
+
+.loginHeader{
+	height:35px;
+	
+}
+
+.loginHeader h1{
+	text-align:left;
+	float:left;
+	width:150px;
+	font-family:Microsoft YaHei;
+	margin-left:20px;
+	margin-top:10px;
+	color:#CCC;
+	font-size:16px;
+	font-weight:300;
+}
+
+
+.loginHeader .partitionLine{
+	height:1px;
+	width:90%;
+	margin-left:20px;
+	float:left;
+	margin-top:8px;
+	background:#DDD;
+}
+	
+
+.loginHeader a{
+	float:right;
+	position:relative;
+	width:30px;
+	height:30px;
+	left:10px;
+	top:-10px;
+	border-width:0;
+	background:url(source/image/close.png) no-repeat;
+}
+
+.loginContent{
+	height:auto;
+	width:auto;
+	position:relative;
+	margin-top:30px;
+	margin-left:20px;
+	margin-bottom:20px;
+
+}
+
+
+.loginContent .inputLine {
+	width:100%;
+	height:50px;
+	margin-top:5px;
+
+}
+
+.loginContent .prompt{
+	width:auto;
+	height:auto;
+	text-align:left;
+	margin-left:50px;
+	font-family:Microsoft YaHei;
+	font-size:16px;
+	color:#F33;
+}
+
+.inputLine h1{
+	height:20px;
+	font-size:16px;
+	font-weight:200;
+	float:left;
+	width:80px;
+	font-family:Microsoft YaHei;
+	margin-top:12px;
+	margin-left:30px;
+}
+
+.inputLine input{
+	line-height:28px;
+	width:200px;
+	float:left;
+	height:30px;
+	float:left;
+	position:relative;
+	z-index:0;
+	font-size:16px;
+	margin-top:8px;
+}
+
+
+
+.inputLine .selectionItem{
+	width:20px;
+	height:20px;
+	float:left;
+	margin-left:50px;
+}
+
+.inputLine h2{
+	height:20px;
+	font-size:14px;
+	font-weight:200;
+	float:left;
+	width:60px;
+	font-family:Microsoft YaHei;
+	margin-top:8px;
+}
+
+.inputLine h3{
+	height:20px;
+	font-size:14px;
+	font-weight:200;
+	float:left;
+	width:230px;
+	font-family:Microsoft YaHei;
+	margin-top:6px;
+}
+
+
+
+.inputLine .submitButton{
+	background:#3eb1f0;
+	text-decoration:none;
+	text-align:center;
+	color:#fff;
+	float:left;
+	width:90px;
+	height:24px;
+	margin-top:2px;
+	margin-left:55px;
+	font-family:Microsoft YaHei;
+	font-size:14px;
+	border:0;
+	border-radius:3px;
+	line-height:24px;
+}
+
+.inputLine a{
+	line-height:24px;
+}
+
+.inputLine .submitButton a:hover{
+	background:#0CF;
+}
+
+.inputLine .submitButton:hover{
+	background:#0CF;
+}
+
+.loginContent .on_changes{ 
+	position:absolute; 
+	top:40px; 
+	left:110px; 
+	width:200px; 
+	list-style:none; 
+	background:#FFF; 
+	border:1px solid #CEE7FF; 
+	display:none; 
+	list-style:none; 
+	z-index:100;
+	 }
+.loginContent .on_changes li{
+	margin:5px; padding:5px;
+	width:180px;
+	}
+.loginContent .on_changes li.active{ 
+	background:#CEE7FF;
+	}
+
+
+
+
+/*------------------------分页------------------------------------*/
+
+.pageSelectBlock{
+	
+	
+	width:auto;
+	height:30px;
+	position:relative;
+	margin-top:5px;
+	
+}
+
+.pageSelectBlock a{
+	border-style:solid;
+	border-width:2px; 
+	border-color:#fff1d7;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:3px;
+	padding-right:3px;
+	color:#999;
+	
+}
+.pageSelectBlock .selectedPage{
+	color:#FFF;
+	background:#fff1d7;
+}
+
+.pageSelectBlock a:hover{
+	color:#FFF;
+	background:#fff1d7;
+}
+
+.pageSelectBlock input{
+	position:relative;
+	width:45px;
+	height:16px;
+}
+
+.pageSelectBlock .pageGo{
+	padding-left:6px;
+	padding-right:6px;
+
+
+}
+
+
+
+/*-----------------------分页END----------------------------------*/
+
+
+
+
+.Content960{
+	position:relative;
+	width:960px;
+	height:auto;
+	}
+	
+/*-----------------------DETAIL页的CSS----------------------------------*/
+	
+.detail_information_bolck{
+	float:left;
+	position:relative;
+	height:680px;
+	width:480px;
+	margin-top:20px;
+}
+
+
+.detail_information_photo{
+	float:left;
+	position:relative;
+	height:auto;
+	width:480px;
+	background:#F6F6F6;
+	margin-top:20px;
+}
+
+.detail_more_spcial_block{
+	float:left;
+	position:relative;
+	height:260px;
+	width:960px;
+	background:#F6F6F6;
+}
+
+.detail_recommend_block{
+	float:left;
+	position:relative;
+	height:310px;
+	width:960px;
+}
+
+#Detail_photo_big{
+
+	max-width:460px;
+	max-height:600px;
+	width:expression(this.height> 460?"460px":"auto" );;
+	height:expression(this.height> 580?"580px":"auto" );;
+	text-align:center;
+	overflow:hidden;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.detail_information_bolck .detail_userHeadAndName{
+	width:392px;
+	float:left;
+	margin-top:10px;
+	margin-left:45px;
+	height:auto;
+}
+.detail_information_bolck .detail_nameAndTime{
+	width:342px;
+	float:left;
+	height:auto;
+	
+}
+
+.detail_userHeadAndName img{
+	 height:50px;
+	 width:50px;
+	 float:left;
+}
+
+.detail_userHeadAndName a{
+	height:25px;
+	float:left;
+	width:322px;
+	font-family:Microsoft YaHei;
+	font-size:18px;
+	color:#F787FC;
+	font-weight:600;
+	text-align:left;
+	margin-left:20px;
+	text-decoration:none;
+}
+
+.detail_userHeadAndName h2{
+	height:25px;
+	float:left;
+	width:322px;
+	font-family:Microsoft YaHei;
+	font-size:14px;
+	color:#CCC;
+	font-weight:100;
+	text-align:left;
+	margin-left:20px;
+}
+
+
+.detail_information_bolck .detail_characterization{
+	width:392px;
+	float:left;
+	margin-left:45px;
+	margin-top:10px;
+	height:auto;
+	text-align:left;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+}
+
+.detail_information_bolck .detail_Buy_button_command{
+	height:300px;
+	width:392px;
+	float:left;
+	margin-left:45px;
+	margin-top:20px	;
+	font-family:Microsoft YaHei;
+	background:#6CF;
+}
+
+.detail_information_bolck .detail_remark{
+	height:180px;
+	width:392px;
+	float:left;
+	margin-left:45px;
+	margin-top:10px;
+	font-family:Microsoft YaHei;
+	background:#6CF;
+}
+.detail_information_bolck .detail_remark_page{
+	height:30px;
+	width:392px;
+	float:left;
+	margin-left:45px;
+	margin-top:10px;
+	font-family:Microsoft YaHei;
+	background:#6CF;
+}
+	
+	
+	
+/*-----------------------DETAIL页的CSSEND----------------------------------*/
+
+
+
+
+
+/*-----------------------register页面-------------------------------------*/
+.register-header{
+	position:relative;
+	background-color:#000;
+	height:80px;	
+	width:100%;
+	width:expression(document.body.clientWidth <= 1366? "1366px": "auto");
+	min-width:1366px;
+
+
+}
+
+.register-header .register-inheader{
+	background-color:#fff1d7;
+	height:70px;
+	width:100%;
+}
+
+
+.register-headerContent{
+	width:1130px;
+	height:70px;
+}
+
+.register-headerContent .register_loginButton{
+	width:110px;
+	margin-top:15px;
+	height:35px;
+	line-height:35px;
+	font:Microsoft YaHei;
+	color:#FFF;
+	font-weight:600;
+	font-size:14px;
+	background-color:#333;
+	border-radius:2px;
+	text-decoration:none;
+	float:right;
+	
+	
+}
+
+.register-headerContent .register_loginButton:hover{
+	background:#FFF;
+	color:#0C9;
+}
+.register-headerContent h1{
+	width:auto;
+	margin-top:15px;
+	height:35px;
+	line-height:35px;
+	font:Microsoft YaHei;
+	color:#000;
+	font-size:14px;
+	float:right;
+	margin-right:5px;
+}
+
+
+.register_Block{
+	height:500px;
+	width:400px;
+	
+}
+
+.register_Block .heading{
+	width:400px;
+	height:auto;
+	text-align:left;
+}
+
+.register_Block h1{
+	padding:1px;
+	padding-right:8px;
+	font-family:Microsoft YaHei;
+	font-size:18px;
+	width:auto;
+	color:#0C9;
+	border-right-style:solid;
+	border-right-color:#0C9;
+	border-right-width:4px;
+	float:left;
+}
+
+.register_Block h2{
+	padding:1px;
+	margin-left:8px;
+	font-family:Microsoft YaHei;
+	font-size:18px;
+	color:#000;
+	float:left;
+	width:auto;
+}
+
+.register_inputline{
+	height:85px;
+	margin-top:10px;
+	width:100%;
+	float:left;
+}
+
+.register_inputline h3{
+	text-align:left;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	color:#000;
+	float:left;
+}
+
+.register_inputline input{
+	text-align:left;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	float:left;
+	height:32px;
+	
+	line-height:32px;
+
+}
+
+.register_inputline h4{
+	text-align:left;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	color:#B4B4B4;
+	float:left;
+}
+
+.register_inputline .selectionItem{
+	height:20px;
+	width:auto;
+	float:left;
+	margin-right:5px;
+}
+
+.register_inputline h5{
+	width:360px;
+	height:20px;
+	text-align:left;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	color:#333;
+	float:left;
+}
+.register_inputline  h5 a{
+	color:#09F;
+	text-decoration:none;
+}
+
+.register_inputline  h5 a:hover{
+	color:#0CF;
+}
+
+.register_inputline .submitButton{
+	margin-top:15px;
+	font-weight:900;
+	height:34px;
+	width:100%;
+	background:#0C9;
+	color:#FFF;
+	line-height:34px;
+	text-align:center;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	float:left;
+	border-width:0;
+	
+}
+
+.register_inputline .on_changes{
+	position:absolute; 
+	top:115px; 
+	left:280px; 
+	width:400px; 
+	list-style:none; 
+	background:#FFF; 
+	border:2px solid #0C9; 
+	display:none; 
+	list-style:none; 
+	z-index:100;
+	 }
+.register_inputline .on_changes li{
+	margin:5px; padding:10px;
+	width:90%;
+	}
+.register_inputline .on_changes li.active{ 
+	background:#0C9;
+	}
+	
+	
+.returnBackToIndex_register{
+	float:right;
+	width:auto;
+	margin-top:15px;
+	height:35px;
+	line-height:35px;
+	font:Microsoft YaHei;
+	color:#333;
+	font-size:12px;
+	float:right;
+	margin-right:10px;
+	text-decoration:none;
+	
+}
+	
+	
+/*-----------------------register页面-------------------------------------*/

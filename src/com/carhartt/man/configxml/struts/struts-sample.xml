@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<package name="sample" namespace="/sample" extends="struts-default">
+		<!-- 定义处理用户请求的Action，指定该Action的实现类-->
+		<action name="*" class="com.carhartt.man.action.SampleAction"
+			method="{1}">
+			<!-- 为两个逻辑视图配置视图页面 -->
+			<result name="error">/error.jsp</result>
+			<result name="success">/welcome.jsp</result>
+		</action>
+	</package>
+</struts>
