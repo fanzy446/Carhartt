@@ -1,0 +1,405 @@
+﻿$axure.loadCurrentPage({
+  "url":"登陆.html",
+  "generationDate":new Date(1402041962646.12),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"1e7f689b41eb45ad89babbfc13adf71d",
+    "type":"Axure:Page",
+    "name":"登陆",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"2e171f9a0ac34b9cbefb1310452b9c02",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":91,
+              "y":92},
+            "size":{
+              "width":500,
+              "height":390}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"258671152a7f473084de2f023a4086e8",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":91,
+                  "y":92},
+                "size":{
+                  "width":500,
+                  "height":390}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/登陆/u0.png"}},
+{
+          "id":"57538cd3c3154fbcb9d226a9cae3794a",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Negreta', 'Arial'",
+            "fontSize":"20px",
+            "fontWeight":"700",
+            "location":{
+              "x":631,
+              "y":186},
+            "size":{
+              "width":41,
+              "height":24}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e4d35b8b56ce492f9371a1420b9d91df",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Negreta', 'Arial'",
+                "fontSize":"20px",
+                "fontWeight":"700",
+                "location":{
+                  "x":631,
+                  "y":186},
+                "size":{
+                  "width":41,
+                  "height":24}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"407eeb3401724c579258e05084282431",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Negreta', 'Arial'",
+            "fontSize":"20px",
+            "fontWeight":"700",
+            "location":{
+              "x":631,
+              "y":262},
+            "size":{
+              "width":41,
+              "height":24}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"dfcd1c5ab3c34b12bf6a3ed9759c3ffb",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Negreta', 'Arial'",
+                "fontSize":"20px",
+                "fontWeight":"700",
+                "location":{
+                  "x":631,
+                  "y":262},
+                "size":{
+                  "width":41,
+                  "height":24}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"66fd384863034575b83ceb8f110e570c",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":711,
+              "y":186},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"a14703cbade645ff8a0af902430f385a",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":711,
+              "y":262},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"6c9382a1ae3d42708392103b16b7427a",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":658,
+              "y":316},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Link in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "includeVariables":true},
+                      "linkType":"current"},
+{
+                      "action":"linkWindow",
+                      "description":"Open Home-已登录 in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"home-___.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"5124684d52f34d86b7349c483b7a66bb",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":789,
+              "y":316},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"98ca0b991e5349218682cd4efece72c1",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":150,
+              "height":30}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"f44f64e321c6417ab2261e68ca05180e",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":150,
+              "y":0},
+            "size":{
+              "width":150,
+              "height":30}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open 购物车 in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"购物车.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"984e51c673a94f27852254e4ab456596",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":300,
+              "y":0},
+            "size":{
+              "width":150,
+              "height":30}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open 收藏夹 in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"收藏夹.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"63f5c62bc1fb4e65baa95ab86e77439d",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":450,
+              "y":0},
+            "size":{
+              "width":150,
+              "height":30}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Link in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"c8991f16b445408aaeccf4c4bf76e08e",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":890,
+              "y":0},
+            "size":{
+              "width":110,
+              "height":30}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"fc39ec4897d94cbb890b369a78b130d4",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":600,
+              "y":0},
+            "size":{
+              "width":150,
+              "height":30}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open 留言版 in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"留言版.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "2e171f9a0ac34b9cbefb1310452b9c02":{
+      "scriptId":"u0"},
+    "258671152a7f473084de2f023a4086e8":{
+      "scriptId":"u1"},
+    "57538cd3c3154fbcb9d226a9cae3794a":{
+      "scriptId":"u2"},
+    "e4d35b8b56ce492f9371a1420b9d91df":{
+      "scriptId":"u3"},
+    "407eeb3401724c579258e05084282431":{
+      "scriptId":"u4"},
+    "dfcd1c5ab3c34b12bf6a3ed9759c3ffb":{
+      "scriptId":"u5"},
+    "66fd384863034575b83ceb8f110e570c":{
+      "scriptId":"u6"},
+    "a14703cbade645ff8a0af902430f385a":{
+      "scriptId":"u7"},
+    "6c9382a1ae3d42708392103b16b7427a":{
+      "scriptId":"u8"},
+    "5124684d52f34d86b7349c483b7a66bb":{
+      "scriptId":"u9"},
+    "98ca0b991e5349218682cd4efece72c1":{
+      "scriptId":"u10"},
+    "f44f64e321c6417ab2261e68ca05180e":{
+      "scriptId":"u11"},
+    "984e51c673a94f27852254e4ab456596":{
+      "scriptId":"u12"},
+    "63f5c62bc1fb4e65baa95ab86e77439d":{
+      "scriptId":"u13"},
+    "c8991f16b445408aaeccf4c4bf76e08e":{
+      "scriptId":"u14"},
+    "fc39ec4897d94cbb890b369a78b130d4":{
+      "scriptId":"u15"}}});

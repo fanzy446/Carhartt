@@ -1,0 +1,509 @@
+﻿$axure.loadCurrentPage({
+  "url":"个人中心-订单管理-单个订单.html",
+  "generationDate":new Date(1402041963850.19),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"45ca3ca7d30a49ac83417b71921e3916",
+    "type":"Axure:Page",
+    "name":"个人中心-订单管理-单个订单",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"1102d7e8bcf74be687c12f8482e75eb6",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":450,
+              "y":580},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"f5d4d8b7a1d94e3faf9a7ddfe3fcf8c0",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Negreta', 'Arial'",
+            "fontSize":"48px",
+            "fontWeight":"700",
+            "location":{
+              "x":0,
+              "y":30},
+            "size":{
+              "width":1000,
+              "height":170}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b852a88a868e4e9092ff26be72cbe721",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Negreta', 'Arial'",
+                "fontSize":"48px",
+                "fontWeight":"700",
+                "location":{
+                  "x":0,
+                  "y":30},
+                "size":{
+                  "width":1000,
+                  "height":170}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/home/u4.png"}},
+{
+          "id":"1aa3d3cc6ad342e0a4b27851eeebdfc7",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":150,
+              "height":30}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"ef87774f25f54265b5e401e79e391fda",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":150,
+              "y":0},
+            "size":{
+              "width":150,
+              "height":30}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open 购物车 in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"购物车.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"30a9865649854caf857be9f780044c34",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":300,
+              "y":0},
+            "size":{
+              "width":150,
+              "height":30}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open 收藏夹 in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"收藏夹.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"58b8017c8c31461caad19782fd2260a4",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":450,
+              "y":0},
+            "size":{
+              "width":150,
+              "height":30}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Link in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"eadeb520130b4443a7ed5ab7bd407dfb",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":810,
+              "y":7},
+            "size":{
+              "width":90,
+              "height":23}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6d64fb4e3d0f45f59deb1f6868299169",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":810,
+                  "y":7},
+                "size":{
+                  "width":90,
+                  "height":23}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"3e38835d86f14b33bdf700bb16b07ccb",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":900,
+              "y":0},
+            "size":{
+              "width":100,
+              "height":32}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"678960049b264917999498d3b48da4e9",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":600,
+              "y":0},
+            "size":{
+              "width":150,
+              "height":30}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Link in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"71f3ee82db8a4c79a4eedc09aea70e5f",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":200},
+            "size":{
+              "width":169,
+              "height":170}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"69db10ff5a514240a466a74cd44385cd",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":0,
+                  "y":200},
+                "size":{
+                  "width":169,
+                  "height":170}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/个人中心-个人信息/u48.png"}},
+{
+          "id":"4cb03d568f274912b21e3b86b13dcab6",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontSize":"48px",
+            "location":{
+              "x":-10,
+              "y":632},
+            "size":{
+              "width":1000,
+              "height":90}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d69fe819195a4b739445ad94a22200eb",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"48px",
+                "location":{
+                  "x":-10,
+                  "y":632},
+                "size":{
+                  "width":1000,
+                  "height":90}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/home/u46.png"}},
+{
+          "id":"cff7a403f56c4be2952fe5ce388621ae",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":380},
+            "size":{
+              "width":169,
+              "height":30}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open 个人中心-个人信息 in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"个人中心-个人信息.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"f12c77190df94cdea69343872b60fabc",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":430},
+            "size":{
+              "width":169,
+              "height":30}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open 购物车 in New Window/Tab",
+                      "target":{
+                        "targetType":"page",
+                        "url":"购物车.html",
+                        "includeVariables":true},
+                      "linkType":"new"}]}]}},
+          "tabbable":true},
+{
+          "id":"f5ad1f5507614970bc9a3bb1e6b2b7b5",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":480},
+            "size":{
+              "width":169,
+              "height":30}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open 收藏夹 in New Window/Tab",
+                      "target":{
+                        "targetType":"page",
+                        "url":"收藏夹.html",
+                        "includeVariables":true},
+                      "linkType":"new"}]}]}},
+          "tabbable":true},
+{
+          "id":"750c80336e584da7897c227bfddc334f",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":530},
+            "size":{
+              "width":169,
+              "height":30}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open 个人中心-订单管理 in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"个人中心-订单管理.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"f174e8b1cd3046b29fb0c2e2d2bc6ac6",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":580},
+            "size":{
+              "width":169,
+              "height":30}},
+          "adaptiveStyles":{
+}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "1102d7e8bcf74be687c12f8482e75eb6":{
+      "scriptId":"u0"},
+    "f5d4d8b7a1d94e3faf9a7ddfe3fcf8c0":{
+      "scriptId":"u1"},
+    "b852a88a868e4e9092ff26be72cbe721":{
+      "scriptId":"u2"},
+    "1aa3d3cc6ad342e0a4b27851eeebdfc7":{
+      "scriptId":"u3"},
+    "ef87774f25f54265b5e401e79e391fda":{
+      "scriptId":"u4"},
+    "30a9865649854caf857be9f780044c34":{
+      "scriptId":"u5"},
+    "58b8017c8c31461caad19782fd2260a4":{
+      "scriptId":"u6"},
+    "eadeb520130b4443a7ed5ab7bd407dfb":{
+      "scriptId":"u7"},
+    "6d64fb4e3d0f45f59deb1f6868299169":{
+      "scriptId":"u8"},
+    "3e38835d86f14b33bdf700bb16b07ccb":{
+      "scriptId":"u9"},
+    "678960049b264917999498d3b48da4e9":{
+      "scriptId":"u10"},
+    "71f3ee82db8a4c79a4eedc09aea70e5f":{
+      "scriptId":"u11"},
+    "69db10ff5a514240a466a74cd44385cd":{
+      "scriptId":"u12"},
+    "4cb03d568f274912b21e3b86b13dcab6":{
+      "scriptId":"u13"},
+    "d69fe819195a4b739445ad94a22200eb":{
+      "scriptId":"u14"},
+    "cff7a403f56c4be2952fe5ce388621ae":{
+      "scriptId":"u15"},
+    "f12c77190df94cdea69343872b60fabc":{
+      "scriptId":"u16"},
+    "f5ad1f5507614970bc9a3bb1e6b2b7b5":{
+      "scriptId":"u17"},
+    "750c80336e584da7897c227bfddc334f":{
+      "scriptId":"u18"},
+    "f174e8b1cd3046b29fb0c2e2d2bc6ac6":{
+      "scriptId":"u19"}}});
